@@ -37,6 +37,13 @@
           "bundleName": "sap.ui.app.i18n.i18n"
         }
       }
+    },
+    "resources": {
+      "css": [
+      {
+        "uri": "assets/stylesheets/app.css"
+      }
+      ]
     }
   }
 }
