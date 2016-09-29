@@ -23,7 +23,7 @@ gulp.task(
     .pipe(gulpif('**/*.xml', prettydata({type: 'minify'}))) // only pass .xml to prettydata
     .pipe(ui5preload({
         base: './webapp',
-        namespace: 'app',
+        namespace: 'sap.ui.app',
         fileName: 'Component-preload.js'
     })).pipe(gulp.dest('./webapp'));
   }
