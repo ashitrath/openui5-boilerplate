@@ -11,16 +11,16 @@ module.exports = function(grunt) {
       component: {
         options: {
           resources: {
-            cwd: '',
-            prefix: '',
+            cwd: 'webapp',
+            prefix: 'sap/ui/app',
             src: [
-              'webapp/**/*.js',
-              'webapp/**/*.fragment.xml',
-              'webapp/**/*.view.xml',
-              'webapp/**/*.properties'
+              '**/*.js',
+              '**/*.fragment.xml',
+              '**/*.view.xml',
+              '**/*.properties'
             ]
           },
-          dest: '',
+          dest: 'webapp',
           compress: true
         },
         components: true
