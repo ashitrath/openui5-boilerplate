@@ -10,10 +10,8 @@
 2. Setup
 
   ```
-  npm install --save-dev gulp-ui5-preload
-  npm install --save-dev gulp-uglify
-  npm install --save-dev gulp-pretty-data
-  npm install --save-devgulp-if
+  npm install --global gulp-cli http-server
+  npm install
   ```
 
 3. Run the gulp to merge multiple files into one preload file, and run a local server
